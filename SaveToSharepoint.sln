@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveToSharepoint", "SaveToSharepoint\SaveToSharepoint.csproj", "{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveToSharepointWeb", "SaveToSharepointWeb\SaveToSharepointWeb.csproj", "{A7AE2EBE-FBE7-4165-B461-D7C06E0779AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8E0DD6A-849D-4D56-8CE3-91AB3D46B0DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A7AE2EBE-FBE7-4165-B461-D7C06E0779AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7AE2EBE-FBE7-4165-B461-D7C06E0779AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7AE2EBE-FBE7-4165-B461-D7C06E0779AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7AE2EBE-FBE7-4165-B461-D7C06E0779AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C87938C9-0584-43BA-88AC-4CB26E88FA1F}
+	EndGlobalSection
+EndGlobal

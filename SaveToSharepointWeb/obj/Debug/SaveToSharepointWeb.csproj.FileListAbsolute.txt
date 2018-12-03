@@ -1,0 +1,180 @@
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csproj.CoreCompileInputs.cache
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.dll.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.pdb
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.exe
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.exe.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.rsp
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.exe
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.exe.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.rsp
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.AppContext.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Console.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.Process.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.Compression.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.Pipes.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Claims.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Threading.Thread.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.ValueTuple.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XPath.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.exe
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.exe.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.rsp
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\VBCSCompiler.exe
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.Core.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Identity.Client.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.Jwt.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Newtonsoft.Json.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Owin.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Net.Http.Formatting.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.WebHost.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.Core.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Identity.Client.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.Jwt.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Newtonsoft.Json.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Net.Http.Formatting.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.WebHost.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csproj.CopyComplete
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.dll
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.pdb
+D:\UpWorks\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csprojAssemblyReference.cache
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.dll.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\SaveToSharepointWeb.pdb
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.exe
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.exe.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csc.rsp
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.exe
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.exe.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\csi.rsp
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.AppContext.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Console.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Threading.Thread.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.exe
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.exe.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\vbc.rsp
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.Core.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Identity.Client.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.Jwt.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OpenIdConnect.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Newtonsoft.Json.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Owin.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Net.Http.Formatting.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.WebHost.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Graph.Core.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Identity.Client.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.Jwt.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.Owin.Security.OpenIdConnect.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Newtonsoft.Json.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Net.Http.Formatting.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\System.Web.Http.WebHost.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csprojAssemblyReference.cache
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csproj.CoreCompileInputs.cache
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.csproj.CopyComplete
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.dll
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepointWeb\obj\Debug\SaveToSharepointWeb.pdb

@@ -1,0 +1,6 @@
+D:\UpWorks\SaveToSharepoint\SaveToSharepoint\bin\Debug\SaveToSharepoint.dll.config
+D:\UpWorks\SaveToSharepoint\SaveToSharepoint\obj\Debug\SaveToSharepoint.csproj.CoreCompileInputs.cache
+D:\UpWorks\SaveToSharepoint\SaveToSharepoint\obj\Debug\SaveToSharepoint.csprojAssemblyReference.cache
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepoint\bin\Debug\SaveToSharepoint.dll.config
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepoint\obj\Debug\SaveToSharepoint.csprojAssemblyReference.cache
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepoint\obj\Debug\SaveToSharepoint.csproj.CoreCompileInputs.cache

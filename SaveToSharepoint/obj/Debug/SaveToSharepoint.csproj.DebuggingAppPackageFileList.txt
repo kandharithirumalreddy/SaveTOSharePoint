@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\SaveToSharepointManifest.xml
+C:\Users\dinesh.gudapati\Documents\Dinesh Technical\SaveToSharepoint\SaveToSharepoint\bin\Debug\SaveToSharepoint.debugapp
