@@ -472,11 +472,13 @@
     <Compile Include="Controllers\GetLibraryFoldersController.cs" />
     <Compile Include="Controllers\GetSiteCollectionsController.cs" />
     <Compile Include="Controllers\SaveAttachmentsController.cs" />
+    <Compile Include="Controllers\TestServiceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DocumentLibraryInfo.cs" />
     <Compile Include="Models\FolderInfo.cs" />
+    <Compile Include="Models\SaveAttachmentRequest.cs" />
     <Compile Include="Models\SiteCollectionInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />

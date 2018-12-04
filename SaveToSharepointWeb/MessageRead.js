@@ -55,20 +55,67 @@
         });
     }
 
+    function getDocumentLibrariesFolder(ssotoken) {
+        var documentinfo = {
+            Id: "b!X6iuQPHK9UeDjBmivhpk-qwHqLT-ZEdLsCyhhob5VR2Gw1vmxNYGRYQQLXGdBwfG",
+            Name: "Contracts"
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "api/GetLibraryFolders",
+            headers: {
+                "Authorization": "Bearer " + ssotoken
+            },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(documentinfo)
+        }).done(function (data) {
+            console.log("Fetched the sitecollection data");
+            console.log(data);
+        }).fail(function (error) {
+            console.log("Fail to fetch site collections");
+            console.log(error);
+        });
+    }
+
+    function saveAttachment(ssotoken) {
+        var attachmentinfo = {
+            messageId: "AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAA=",
+            driveId: "b!X6iuQPHK9UeDjBmivhpk-qwHqLT-ZEdLsCyhhob5VR2Gw1vmxNYGRYQQLXGdBwfG",
+            attachmentIds: ["AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAABEgAQALAGpl5MtwBItN4zA8SRnfc="]
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "api/SaveAttachments",
+            headers: {
+                "Authorization": "Bearer " + ssotoken
+            },
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(attachmentinfo)
+        }).done(function (data) {
+            console.log("Fetched the sitecollection data");
+            console.log(data);
+        }).fail(function (error) {
+            console.log("Fail to fetch site collections");
+            console.log(error);
+        });
+    }
+
     function getAccessToken() {
         if (Office.context.auth !== undefined && Office.context.auth.getAccessTokenAsync !== undefined) {
             Office.context.auth.getAccessTokenAsync(function (result) {
                 if (result.status === "succeeded") {
                     console.log("token was fetched ");
                     //getSiteCollections(result.value);
-                    getDocumentLibraries(result.value);
+                    saveAttachment(result.value);
                 } else if (result.error.code === 13007 || result.error.code === 13005) {
                     console.log("fetching token by force consent");
                     Office.context.auth.getAccessTokenAsync({ forceConsent: true }, function (result) {
                         if (result.status === "succeeded") {
                             console.log("token was fetched");
                            // getSiteCollections(result.value);
-                            getDocumentLibraries(result.value);
+                            saveAttachment(result.value);
                         }
                         else {
                             console.log("No token was fetched " + result.error.code);

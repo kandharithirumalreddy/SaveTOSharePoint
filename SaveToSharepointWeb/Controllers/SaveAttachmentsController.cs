@@ -62,23 +62,77 @@ namespace SaveToSharepointWeb.Controllers
                 return BadRequest("Authorization is not valid");
             }
 
-            return await GetSitecollectionDrives(request.Id);
+            return await GetAttachments(request);
         }
 
-        private async Task<IHttpActionResult> GetAttachments(string messageId,string[] attachmentId)
+        private async Task<IHttpActionResult> GetAttachments(SaveAttachmentRequest request)
         {
+            var bootstrapContext = ClaimsPrincipal.Current.Identities.First().BootstrapContext as BootstrapContext;
+            if (bootstrapContext != null)
+            {
+                // Use MSAL to invoke the on-behalf-of flow to exchange token for a Graph token
+                UserAssertion userAssertion = new UserAssertion(bootstrapContext.Token);
+                ClientCredential clientCred = new ClientCredential(ConfigurationManager.AppSettings["ida:AppPassword"]);
+                ConfidentialClientApplication cca = new ConfidentialClientApplication(
+                    ConfigurationManager.AppSettings["ida:AppId"],
+                    ConfigurationManager.AppSettings["ida:RedirectUri"],
+                    clientCred, null, null);
 
+                string[] graphScopes = { "Files.ReadWrite", "Mail.Read", "Sites.ReadWrite.All" };
+
+                AuthenticationResult authResult = await cca.AcquireTokenOnBehalfOfAsync(graphScopes, userAssertion);
+
+                // Initialize a Graph client
+                GraphServiceClient graphClient = new GraphServiceClient(
+                    new DelegateAuthenticationProvider(
+                        (requestMessage) =>
+                        {
+                            // Add the Site Collection access token to each outgoing request
+                            requestMessage.Headers.Authorization = new AuthenticationHeaderValue("Bearer", authResult.AccessToken);
+                            return Task.FromResult(0);
+                        }));
+
+                foreach (string attachmentId in request.attachmentIds)
+                {
+                    var attachment = await graphClient.Me.Messages[request.messageId].Attachments[attachmentId].Request().GetAsync() as FileAttachment;
+
+                    if (attachment.Size < (4 * 1024 * 1024))
+                    {
+                        MemoryStream fileStream = new MemoryStream(attachment.ContentBytes);
+                        bool success = await SaveFileToSharePoint(graphClient, attachment.Name, fileStream, request.driveId, request.folderName);
+                        if (!success)
+                        {
+                            return BadRequest("Failed to upload the file to the Sharepoint document Library");
+                        }
+                    }
+                    else
+                    {
+                        // https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/api/item_createuploadsession
+                        // and
+                        // https://github.com/microsoftgraph/aspnet-snippets-sample/blob/master/Graph-ASPNET-46-Snippets/Microsoft%20Graph%20ASPNET%20Snippets/Models/FilesService.cs
+                        return BadRequest("Attachments with size >4MB are restricted from uploading");
+                    }
+
+                }
+            }
+
+            return Ok();
         }
 
-        private async Task<bool> SaveFileToSharePoint(GraphServiceClient client, string fileName, Stream fileContent)
+        private async Task<bool> SaveFileToSharePoint(GraphServiceClient client, string fileName, Stream fileContent, string driveId, string foldername)
         {
-            string relativeFilePath = "Outlook Attachments/" + MakeFileNameValid(fileName);
-
             try
             {
-                // This method only supports files 4MB or less
-                DriveItem newItem = await client.Me.Drive.Root.ItemWithPath(relativeFilePath)
-                    .Content.Request().PutAsync<DriveItem>(fileContent);
+                if (!string.IsNullOrEmpty(foldername))
+                {
+                    string path = $"{foldername}/{MakeFileNameValid(fileName)}";
+                    DriveItem item = await client.Drives[driveId].Root.ItemWithPath(path).Content.Request().PutAsync<DriveItem>(fileContent);
+                }
+                else
+                {
+                    DriveItem item = await client.Drives[driveId].Root.ItemWithPath(fileName).Content.Request().PutAsync<DriveItem>(fileContent);
+                }
+
             }
             catch (ServiceException)
             {
