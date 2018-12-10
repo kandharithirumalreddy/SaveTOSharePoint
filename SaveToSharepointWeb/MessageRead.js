@@ -21,6 +21,22 @@
                 $("#folderselect").css("display", "block");
                 getDocumentLibrariesFolder();
                 loadProps();
+                $("#savesection").css("display", "block");
+            });
+
+            $("#btnSave").click((event) => {
+                $("#afailure").css("display", "none");
+                var attachmentIds = [];
+                $("input:checkbox[name=attachmentsCheck]:checked").each(function () {
+                    attachmentIds.push(Office.context.mailbox.convertToRestId($(this).val(), Office.MailboxEnums.RestVersion.v2_0));
+                    console.log($(this).val());
+                });
+
+                if (attachmentIds.length > 0) {
+                    saveAttachment(attachmentIds);
+                } else {
+                    $("#afailure").text("No Attachment selected").css("display", "block");
+                }
             });
 
         });
@@ -103,12 +119,34 @@
         });
     }
 
-    function saveAttachment() {
-        var attachmentinfo = {
-            messageId: "AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAA=",
-            driveId: "b!X6iuQPHK9UeDjBmivhpk-qwHqLT-ZEdLsCyhhob5VR2Gw1vmxNYGRYQQLXGdBwfG",
-            attachmentIds: ["AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAABEgAQALAGpl5MtwBItN4zA8SRnfc="]
+    function saveAttachment(attachments) {
+        //var attachmentinfo = {
+        //    messageId: "AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAA=",
+        //    driveId: "b!X6iuQPHK9UeDjBmivhpk-qwHqLT-ZEdLsCyhhob5VR2Gw1vmxNYGRYQQLXGdBwfG",
+        //    attachmentIds: ["AAMkAGFmMTIzMGI2LWYzYjItNGRmNi1iNDA0LWE4ZjQ2ZmE3MWFmYQBGAAAAAACSvln3nLsZRbHnz5sHZ99OBwBs3XOIGghdTKdvFU-RrpirAAAAAAEMAABs3XOIGghdTKdvFU-RrpirAAAOr6LAAAABEgAQALAGpl5MtwBItN4zA8SRnfc="]
+        //}
+
+        var selectedfolder = $("#libraryfolders").find("option:selected").text();
+        var attachmentinfo;
+
+        if (selectedfolder.length > 0) {
+
+             attachmentinfo = {
+                messageId: Office.context.mailbox.convertToRestId(Office.context.mailbox.item.itemId, Office.MailboxEnums.RestVersion.v2_0),
+                driveId: $("#drivesselect").find("option:selected").val(),
+                attachmentIds: attachments,
+                folderName: selectedfolder
+            }
+
+        } else {
+            attachmentinfo = {
+                messageId: Office.context.mailbox.convertToRestId(Office.context.mailbox.item.itemId, Office.MailboxEnums.RestVersion.v2_0),
+                driveId: $("#drivesselect").find("option:selected").val(),
+                attachmentIds: attachments
+            }
         }
+
+        console.log(attachmentinfo);
 
         $.ajax({
             type: "POST",
@@ -119,11 +157,12 @@
             contentType: "application/json; charset=utf-8",
             data: JSON.stringify(attachmentinfo)
         }).done(function (data) {
-            console.log("Fetched the sitecollection data");
-            console.log(data);
+            console.log("Saved the documents");
+            Office.context.ui.closeContainer();
         }).fail(function (error) {
-            console.log("Fail to fetch site collections");
+            console.log("Fail to save the documents");
             console.log(error);
+            $("#afailure").text("Failed to save the attachments").css("display", "block");
         });
     }
 
@@ -186,14 +225,14 @@
 
     function buildAttachmentsString(attachments) {
         if (attachments && attachments.length > 0) {
-            //$("#attachmentSelect").append("<span>Attachments</span>");
+            $("#attachmentSelect").append("<span>Attachments</span>");
 
             for (var i = 0; i < attachments.length; i++) {
 
                 var container = $(document.createElement('div')).addClass("form-check");
-                container.append('< input class="form-check-input" type ="checkbox" name="attachmentsCheck" id="attachmentCheck' + i + '" value ="' + attachments[i].name + '"/>');
+                container.append('<input class="form-check-input" type ="checkbox" name="attachmentsCheck" id="attachmentCheck' + i + '" value ="' + attachments[i].id + '"/>');
                 container.append('<label class="form-check-label" for="attachmentCheck' + i + '">' + attachments[i].name + '</label>');
-                $("#attachmentSelect").after(container);
+                $("#attachmentSelect").append(container);
             }
 
             //$("#attachmentSelect").append('<small id="listhelp" class="form - text text - muted">Please select the attachments that needs to be saved</small>');
@@ -227,7 +266,7 @@
         return "None";
     }
 
-    
+
 
     // Helper function for displaying notifications
     function showNotification(header, content) {
