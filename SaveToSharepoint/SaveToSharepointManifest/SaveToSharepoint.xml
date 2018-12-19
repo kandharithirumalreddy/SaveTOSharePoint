@@ -186,8 +186,8 @@
         </bt:LongStrings>
       </Resources>
       <WebApplicationInfo>
-        <Id>34433bbd-6055-4446-b13a-66ef62a368bb</Id>
-        <Resource>api://localhost:44375/34433bbd-6055-4446-b13a-66ef62a368bb</Resource>
+        <Id>17b5b728-5f38-4f56-91b7-feed30a9f973</Id>
+        <Resource>api://localhost:44375/17b5b728-5f38-4f56-91b7-feed30a9f973</Resource>
         <Scopes>
           <Scope>user.read</Scope>
           <Scope>files.readwrite</Scope>
